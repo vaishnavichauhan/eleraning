@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>elarning</title>
+    <title>eLarning Layout</title>
     <link rel="stylesheet" href="./elarning.css" type="text/css">
     <!-- bootstrap-5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&amp;family=Nunito:wght@600;700;800&amp;display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&amp;family=Nunito:wght@600;700;800&amp;display=swap" >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slide -->
+    <!-- <script src="./jquery/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.css" rel="stylesheet" /> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.js"></script> -->
+    <link rel="stylesheet" href="./owl.carousel.min.css"> 
+    <script src="./jquery/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -58,7 +61,6 @@
                             </ul>
                         </li>
                         <!-- dropdown-end -->
-
                         <li class="nav-item ">
                             <a class="nav-link links" href="#">CONTACT</a>
                         </li>
@@ -71,213 +73,557 @@
         </nav>
         </header>
 
-        <!-- section1: banner-->
-        <section class="mb-5">
+<!-- section1: banner-->
+    <section class="mb-5">
             <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./All_images/carousel-1.jpg" alt="Los Angeles" class="d-block carosual-img" style="width:100%">
-        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-            <div  class="container carousel-caption abc">
-                <div class="row justify-content-start">
-                    <div class="col-sm-10 col-lg-8">
-                        <h5 class="text-uppercase mb-3 col-sky">Best Online Courses</h5>
-                         <h1 class="display-3 text-white font-n font-wt-8 banner-anim">The Best Online Learning Platform</h1>
-                         <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
-                         <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 read-anim">Read More</a>
-                         <a href="#" class="btn btn-light py-md-3 px-md-5 join-anim">Join Now</a>
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./All_images/carousel-1.jpg" alt="Los Angeles" class="d-block carosual-img"
+                            style="width:100%">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                            style="background: rgba(24, 29, 56, .7);">
+                            <div class="container carousel-caption abc">
+                                <div class="row justify-content-start">
+                                    <div class="col-sm-10 col-lg-8">
+                                        <h5 class="text-uppercase mb-3 col-sky">Best Online Courses</h5>
+                                        <h1 class="display-3 text-white font-n font-wt-8 banner-anim">The Best Online
+                                            Learning Platform</h1>
+                                        <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
+                                            at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum
+                                            sea sanctus eirmod elitr.</p>
+                                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 read-anim">Read More</a>
+                                        <a href="#" class="btn btn-light py-md-3 px-md-5 join-anim">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./All_images/carousel-2.jpg" alt="Los Angeles" class="d-block carosual-img"
+                            style="width:100%">
+                        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                            style="background: rgba(24, 29, 56, .7);">
+                            <div class="container carousel-caption abc">
+                                <div class="row justify-content-start">
+                                    <div class="col-sm-10 col-lg-8">
+                                        <h5 class="text-uppercase mb-3 col-sky">Best Online Courses</h5>
+                                        <h1 class="display-3 text-white font-n font-wt-8">Get Educated Online From Your
+                                            Home</h1>
+                                        <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
+                                            at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum
+                                            sea sanctus eirmod elitr.</p>
+                                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3">Read More</a>
+                                        <a href="#" class="btn btn-light py-md-3 px-md-5">Join Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next right-arrow" type="button" data-bs-target="#demo"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+    </section>
+
+<!-- section 2: service start -->
+    <section class=" container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-graduation-cap col-sky mb-4 service-icon"></i>
+                                <h5 class="mb-3 ">Skilled Instructors</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-globe col-sky mb-4 service-icon"></i>
+                                <h5 class="mb-3">Online Classes</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class=" service-item text-center pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-home col-sky mb-4 service-icon"></i>
+                                <h5 class="mb-3">Home Projects</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <div class="service-item text-center pt-3">
+                            <div class="p-4">
+                                <i class="fa fa-3x fa-book-open col-sky mb-4 service-icon"></i>
+                                <h5 class="mb-3">Book Library</h5>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+    </section>
+
+<!-- section 3: about us start-->
+    <section class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <img src="./All_images/about.jpg" class="about-img" alt="book images">
+                    </div>
+                    <div class="col-lg-6 about-div">
+                        <h6 class="bg-white text-start pe-3 about-title text-uppercase col-sky"> About Us</h6>
+                        <h1 class="mb-4">Welcome to eLEARNING </h1>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit.</p>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
+                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
+                            dolore erat amet</p>
+                        <div class="row gy-2 gx-4 mb-4">
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Skilled Instructors</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Online Classes</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>International Certificate
+                                </p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Skilled Instructors</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Online Classes</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>International Certificate
+                                </p>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="#">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+<!-- section 4: Categories -->
+    <section class="container-xxl py-5">
+        <div class="container">
+                <div class="text-center">
+                    <h6 class="cat-title bg-white font-n text-center col-sky px-3 text-uppercase">
+                        Categories</h6>
+                    <h1 class="mb-5">Courses Categories</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-12 col-md-12 conimg">
+                                <a href="#" class="d-block cat-a">
+                                    <img class="cat1-img" src="./All_images/cat-1.jpg" alt="web design">
+                                    <div class="bg-white text-center py-2 px-3 cat-textbox">
+                                        <h5 class="m-0">Web Design</h5>
+                                        <small class="col-sky">49 Courses</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 conimg">
+                                <a href="#" class="d-block cat-a">
+                                    <img class="cat1-img" src="./All_images/cat-2.jpg" alt="graphing design ">
+                                    <div class="bg-white text-center py-2 px-3 cat-textbox">
+                                        <h5 class="m-0">Graphic Design</h5>
+                                        <small class="col-sky">49 Courses</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 conimg">
+                                <a href="#" class="d-block cat-a">
+                                    <img class="cat1-img" src="./All_images/cat-3.jpg " alt="video editin">
+                                    <div class="bg-white text-center py-2 px-3 cat-textbox">
+                                        <h5 class="m-0">Video Editing</h5>
+                                        <small class="col-sky">49 Courses</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 conimg">
+                        <a href="#" class=" d-block cat-a">
+                            <img class="cat1-img" src="./All_images/cat-4.jpg" alt="marketing">
+                            <div class="bg-white text-center py-2 px-3 cat-textbox ">
+                                <h5 class="m-0">Online Marketing</h5>
+                                <small class="col-sky">49 Courses</small>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        
-        <div class="carousel-item">
-            <img src="./All_images/carousel-2.jpg" alt="Los Angeles" class="d-block carosual-img" style="width:100%">
-            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                <div  class="container carousel-caption abc">
-                    <div class="row justify-content-start">
-                        <div class="col-sm-10 col-lg-8">
-                            <h5 class="text-uppercase mb-3 col-sky">Best Online Courses</h5>
-                             <h1 class="display-3 text-white font-n font-wt-8">Get Educated Online From Your Home</h1>
-                             <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
-                             <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3">Read More</a>
-                             <a href="#" class="btn btn-light py-md-3 px-md-5">Join Now</a>
+    </section>
+
+<!-- section 5: Courses -->
+    <section class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center">
+                    <h6 class="cat-title bg-white font-n text-center col-sky px-3 text-uppercase">
+                        Courses</h6>
+                    <h1 class="mb-5">Popular Courses</h1>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6 course-top-sec2">
+                        <div class="course-sec">
+                            <div class="course-top-sec">
+                                <img class="img-fluid course-img" src="./All_images/course-1.jpg" alt="course picture">
+                                <div class="course-text w-100 mb-4">
+                                    <a href="#"
+                                        class=" flex-shrink-0 btn btn-sm btn-primary px-3 border-end course-read"> Read
+                                        More</a>
+                                    <a href="#" class=" flex-shrink-0  btn btn-sm btn-primary px-3 course-join"> Join
+                                        Now</a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 pb-0">
+                                <h3 class="mb-0"> $149.00 </h3>
+                                <div class="mb-3">
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small>(123)</small>
+                                </div>
+                                <h5 class="mb-4">Web Design &amp; Development Course for Beginners</h5>
+                            </div>
+                            <div class="d-flex border-top">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-user-tie col-sky me-2"></i>John Doe</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-clock col-sky me-2"></i>1.49 Hrs</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user col-sky me-2"></i>30
+                                    Students</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 course-top-sec2">
+                        <div class="course-sec">
+                            <div class="course-top-sec">
+                                <img class="img-fluid course-img" src="./All_images/course-2.jpg" alt="course picture">
+                                <div class="course-text w-100 mb-4">
+                                    <a href="#"
+                                        class=" flex-shrink-0 btn btn-sm btn-primary px-3 border-end course-read"> Read
+                                        More</a>
+                                    <a href="#" class=" flex-shrink-0  btn btn-sm btn-primary px-3 course-join"> Join
+                                        Now</a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 pb-0">
+                                <h3 class="mb-0"> $149.00 </h3>
+                                <div class="mb-3">
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small>(123)</small>
+                                </div>
+                                <h5 class="mb-4">Web Design &amp; Development Course for Beginners</h5>
+                            </div>
+                            <div class="d-flex border-top">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-user-tie col-sky me-2"></i>John Doe</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-clock col-sky me-2"></i>1.49 Hrs</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user col-sky me-2"></i>30
+                                    Students</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 course-top-sec2">
+                        <div class="course-sec">
+                            <div class="course-top-sec">
+                                <img class="img-fluid course-img" src="./All_images/course-3.jpg" alt="course picture">
+                                <div class="course-text w-100 mb-4">
+                                    <a href="#"
+                                        class=" flex-shrink-0 btn btn-sm btn-primary px-3 border-end course-read"> Read
+                                        More</a>
+                                    <a href="#" class=" flex-shrink-0  btn btn-sm btn-primary px-3 course-join"> Join
+                                        Now</a>
+                                </div>
+                            </div>
+                            <div class="text-center p-4 pb-0">
+                                <h3 class="mb-0"> $149.00 </h3>
+                                <div class="mb-3">
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small class="fa fa-star fa-star col-sky"></small>
+                                    <small>(123)</small>
+                                </div>
+                                <h5 class="mb-4">Web Design &amp; Development Course for Beginners</h5>
+                            </div>
+                            <div class="d-flex border-top">
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-user-tie col-sky me-2"></i>John Doe</small>
+                                <small class="flex-fill text-center border-end py-2"><i
+                                        class="fa fa-clock col-sky me-2"></i>1.49 Hrs</small>
+                                <small class="flex-fill text-center py-2"><i class="fa fa-user col-sky me-2"></i>30
+                                    Students</small>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+    </section>
+
+<!-- section 6 : instruction -->
+    <section class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center">
+                    <h6 class="cat-title bg-white font-n text-center col-sky px-3 text-uppercase">
+                        Instructors</h6>
+                    <h1 class="mb-5">Expert Instructors</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                        <div class="bg-light">
+                            <div>
+                                <img class="img-fluid course-img" src="./All_images/team-1.jpg"
+                                    alt="team meamber picture">
+                            </div>
+                            <div class="instruction-social">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Instructor Name</h5>
+                                <small>Designation</small>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                        <div class="bg-light">
+                            <div>
+                                <img class="img-fluid course-img" src="./All_images/team-2.jpg"
+                                    alt="team meamber picture">
+                            </div>
+                            <div class="instruction-social">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Instructor Name</h5>
+                                <small>Designation</small>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                        <div class="bg-light">
+                            <div>
+                                <img class="img-fluid course-img" src="./All_images/team-3.jpg"
+                                    alt="team meamber picture">
+                            </div>
+                            <div class="instruction-social">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Instructor Name</h5>
+                                <small>Designation</small>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                        <div class="bg-light">
+                            <div>
+                                <img class="img-fluid course-img" src="./All_images/team-4.jpg"
+                                    alt="team meamber picture">
+                            </div>
+                            <div class="instruction-social">
+                                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                            class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="text-center p-4">
+                                <h5 class="mb-0">Instructor Name</h5>
+                                <small>Designation</small>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next right-arrow" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-</section>
+    </section>
 
-<!-- section 2: service start -->
-<section class=" container-xxl py-5">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-lg-3 col-sm-6 ">
-                <div class="service-item text-center pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-graduation-cap col-sky mb-4 service-icon"></i>
-                        <h5 class="mb-3 ">Skilled Instructors</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 ">
-                <div class="service-item text-center pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-globe col-sky mb-4 service-icon"></i>
-                        <h5 class="mb-3">Online Classes</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 ">
-                <div class=" service-item text-center pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-home col-sky mb-4 service-icon"></i>
-                        <h5 class="mb-3">Home Projects</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-sm-6 ">
-                <div class="service-item text-center pt-3">
-                    <div class="p-4">
-                        <i class="fa fa-3x fa-book-open col-sky mb-4 service-icon"></i>
-                        <h5 class="mb-3">Book Library</h5>
-                        <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- section 3: about us start-->
-<section class="container-xxl py-5">
-    <div class="container">
-        <div class="row g-5">
-            <div class="col-lg-6">
-                <img src="./All_images/about.jpg" class="w-100 h-75 about-img" alt="book images">
-            </div>
-            <div class="col-lg-6 about-div">
-                <h6 class="bg-white text-start pe-3 about-title text-uppercase col-sky"> About Us</h6>
-                <h1 class="mb-4">Welcome to eLEARNING </h1>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                <div class="row gy-2 gx-4 mb-4">
-                    <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Skilled Instructors</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Online Classes</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>International Certificate</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Skilled Instructors</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>Online Classes</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <p class="mb-0"><i class="fa fa-arrow-right col-sky me-2"></i>International Certificate</p>
-                    </div>
-                </div>
-                <a class="btn btn-primary py-3 px-5 mt-2" href="#">Read More</a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- section 3: about us -->
-<section>
-    
-</section>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, obcaecati consequatur. Nam, deleniti cumque. Atque, iure. Sint minus sapiente optio impedit tempora, distinctio architecto quia et natus id omnis cum possimus obcaecati! Repellendus itaque, possimus unde neque veritatis aspernatur consectetur nemo totam voluptate error saepe nesciunt dicta ad suscipit quo perferendis rerum quis excepturi delectus magnam accusamus! Minima rem debitis quas nam eius exercitationem perspiciatis ipsam aut tempore cum corrupti voluptates beatae itaque corporis eaque, aperiam dolorem libero alias laudantium non illum quis saepe earum. Cupiditate aut consequuntur, tempora odio ducimus porro. Ullam fugit est officiis recusandae nostrum accusantium perspiciatis quam quibusdam delectus sed omnis sint, voluptatem, velit doloremque? Ad eaque aliquid quaerat aperiam! Eaque ex ea illum quo sit asperiores, similique, quis beatae omnis aliquid eius suscipit? Quia vero labore vitae. Perspiciatis suscipit harum atque, asperiores eaque quam assumenda dolorum enim ullam sapiente sunt quia perferendis vel cumque, quisquam obcaecati nostrum tempore et fuga? Incidunt magnam quam nemo, pariatur eum saepe iure fugiat! Recusandae laudantium nemo modi eum consequatur, illo nobis odit laboriosam id similique pariatur eaque suscipit beatae fugit necessitatibus, quas repudiandae. Dolor ipsam soluta nihil eos suscipit voluptas saepe nobis error architecto. Repudiandae nobis accusamus aperiam veniam consequatur aliquid vero saepe! Adipisci cum commodi deleniti soluta qui! Necessitatibus nesciunt praesentium ab sunt, suscipit cupiditate laboriosam officia officiis dolorum, accusantium quidem ipsa obcaecati perspiciatis reiciendis, quis saepe odio sapiente sint possimus. Id ipsam quidem iusto voluptatum ipsa consectetur optio maxime nemo explicabo, hic dolor aliquam, neque maiores, dicta rem dolores commodi accusantium! Iste quae accusantium reiciendis sequi eum cum? Dolor, unde facere soluta non ea nulla nihil modi provident doloremque quisquam rerum error excepturi itaque fugit maxime? Reprehenderit accusamus voluptatem officiis aut inventore, autem obcaecati quam omnis modi laboriosam sint est nam incidunt corrupti, veritatis labore! Facere iure natus rerum expedita laborum autem similique quidem, ipsam fugiat odit id magni, dolores distinctio? Inventore consequatur praesentium quia alias dignissimos, assumenda earum, reiciendis dicta blanditiis sequi, eos quis et sunt laboriosam dolorem quidem libero dolore temporibus error ea molestiae quasi! Impedit natus magni laudantium velit ipsam. Alias quis, pariatur rerum ut voluptas a rem impedit velit quasi perspiciatis temporibus culpa fugit blanditiis est omnis accusamus aliquam. Animi veniam, nisi velit sint fuga repellendus necessitatibus, ex vel harum itaque error vitae incidunt fugiat ipsa quod rem odit ducimus minima alias! Provident laudantium illum beatae dolor quis illo quod alias non officia libero ut quo tempore facilis, hic quam nam sint, eligendi est in consequuntur fuga tenetur rerum veniam odit? Vitae, delectus doloribus. Labore asperiores inventore expedita harum dolor explicabo voluptatem, illo facilis, nesciunt sint possimus quod iusto unde qui eligendi! Ad possimus temporibus, corrupti quidem repudiandae quisquam nobis suscipit exercitationem harum similique quasi commodi laborum in magni odio debitis eveniet eum. Deserunt incidunt deleniti modi cupiditate eos in hic ducimus doloribus voluptate voluptatum officia quaerat asperiores, mollitia dolore corporis accusamus culpa minima provident nam amet quisquam. Nulla eaque eius distinctio, ratione consequatur neque officia asperiores veritatis necessitatibus quisquam, aut ea. Sapiente, magnam nisi sed necessitatibus at neque quis quisquam commodi illum esse ducimus harum tempora animi perspiciatis, laudantium cumque. Ratione tempore aliquid magnam doloremque ad enim distinctio sint maiores id, voluptates commodi error. Quod repellat, inventore nobis aut consectetur quisquam, veniam quae velit voluptates tempore minima deserunt officiis reprehenderit voluptate quibusdam laborum culpa iure enim vitae! Assumenda illo et nobis quisquam sint fugit at earum libero eos in quasi quas ducimus, deserunt sequi reprehenderit dignissimos accusantium, praesentium ipsa neque id facilis quaerat perspiciatis. Ipsam unde, suscipit error sunt eveniet, molestias nisi dolores quod ratione nihil nobis totam praesentium sed autem quia earum maxime tenetur quasi numquam dicta odio neque et esse eius. Numquam quisquam iure repellendus quod ipsam modi. Nihil excepturi blanditiis facilis illo quia error, beatae assumenda explicabo non praesentium officiis magnam enim veniam dolorem. Earum suscipit enim blanditiis, explicabo eveniet dolores iste a nisi voluptatibus necessitatibus velit numquam saepe pariatur similique placeat eligendi laboriosam tenetur! Beatae quam blanditiis quis eaque labore soluta harum officia distinctio aut minus repudiandae, facere fuga delectus, accusamus et incidunt sunt repellendus reprehenderit laudantium. Ipsam repudiandae architecto corrupti nostrum omnis explicabo aut laboriosam, aliquid mollitia dignissimos sequi nemo quam officia sed corporis nihil quas aspernatur cum saepe dolorem molestiae adipisci possimus. Illo, harum impedit repudiandae veniam perspiciatis numquam quos qui a quod iste labore vero molestias rerum architecto nulla tempora maiores facilis autem et, quas esse nobis perferendis. Quaerat modi nemo rerum atque architecto assumenda quidem, hic sint illum et. Excepturi quam optio voluptate. Voluptatem minus magni fuga sequi! Dolorum nihil doloribus reiciendis possimus aliquid, maxime cum, accusamus repellat aut ducimus similique alias. Ullam earum architecto quas assumenda corporis incidunt. Cupiditate, molestiae harum voluptate perferendis eligendi adipisci rerum numquam doloribus explicabo praesentium consectetur exercitationem voluptates ullam a dolore expedita deleniti vitae fugiat voluptatem nobis reiciendis modi accusantium non? Corporis autem deserunt, magni quo voluptatum dolorem maiores impedit inventore obcaecati sunt ad dolore minima aliquid, quis enim illum et exercitationem corrupti quidem doloribus illo at veniam sit nostrum? Quae eaque, cumque aliquam officiis fugiat deserunt soluta unde, minus omnis quas sunt. Asperiores perspiciatis blanditiis odit accusamus vitae quos itaque possimus, tempora amet, delectus facere, quidem a provident molestias quia sapiente officia at eaque cum harum corrupti temporibus? Amet maiores, architecto inventore saepe tempora neque nostrum blanditiis quae. Veritatis tempore quod saepe corporis! Fuga, illum? Vitae quae alias id deserunt placeat iure esse eius. Praesentium ea exercitationem eveniet, tenetur quibusdam dolor mollitia, hic ipsum facere est eum soluta deleniti eos dicta, accusantium nisi odit! Ad, magni vitae in nesciunt porro id beatae molestias fuga recusandae nisi maiores quidem iure ipsa provident. Provident, reiciendis illum distinctio dignissimos eveniet aliquam quibusdam ducimus, cumque laborum adipisci aut officia unde quae commodi voluptate autem et placeat deserunt? Incidunt, fuga voluptatem? Porro iusto fugit, exercitationem nisi dolorum quam ab, ex maiores libero praesentium velit, inventore ea dolores aspernatur cum alias voluptatem accusantium impedit blanditiis rem! Amet tenetur aut adipisci sint fugiat! Magni doloribus deleniti sapiente inventore quos impedit veritatis maxime perspiciatis. Vero.</p>
-<div>
-
-    <i class="fa fa-book me-3"></i>
+<!-- slid -->
+<div class="owl-carousel owl-theme owl-2">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
 </div>
-<button id="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>       
 
-
+<!-- slid -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aspernatur consectetur eveniet laboriosam vel sint, ea impedit tempora perferendis doloremque quis ad? Quae, voluptate recusandae aspernatur alias blanditiis eius. Non consequatur culpa animi magnam perferendis provident sint. Vero molestias iusto quod tenetur doloribus blanditiis nobis nam labore, impedit, quidem itaque officia ea reprehenderit facere quae beatae doloremque. Inventore, doloremque ratione? Fuga dolorum quas provident laboriosam accusamus quos, incidunt ipsa deleniti necessitatibus culpa maiores mollitia consectetur aliquid, assumenda doloremque blanditiis delectus! Sit, in perferendis? Ullam blanditiis nemo itaque cupiditate quos recusandae ipsum quasi soluta exercitationem adipisci. Culpa illo fugit commodi aliquam.</p>
+        <div>
+            <i class="fa fa-book me-3"></i>
+        </div>
+        <button id="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
 </body>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- back to top -->
+<!-- back to top start-->
 <script>
     const backToTopButton = document.querySelector("#back-to-top-btn");
 
-window.addEventListener("scroll", scrollFunction);
+    window.addEventListener("scroll", scrollFunction);
 
-function scrollFunction() {
-  if (window.pageYOffset > 300) { // Show backToTopButton
-    if(!backToTopButton.classList.contains("btnEntrance")) {
-      backToTopButton.classList.remove("btnExit");
-      backToTopButton.classList.add("btnEntrance");
-      backToTopButton.style.display = "block";
+    function scrollFunction() {
+        if (window.pageYOffset > 300) { // Show backToTopButton
+            if (!backToTopButton.classList.contains("btnEntrance")) {
+                backToTopButton.classList.remove("btnExit");
+                backToTopButton.classList.add("btnEntrance");
+                backToTopButton.style.display = "block";
+            }
+        }
+        else { // Hide backToTopButton
+            if (backToTopButton.classList.contains("btnEntrance")) {
+                backToTopButton.classList.remove("btnEntrance");
+                backToTopButton.classList.add("btnExit");
+                setTimeout(function () {
+                    backToTopButton.style.display = "none";
+                }, 250);
+            }
+        }
     }
-  }
-  else { // Hide backToTopButton
-    if(backToTopButton.classList.contains("btnEntrance")) {
-      backToTopButton.classList.remove("btnEntrance");
-      backToTopButton.classList.add("btnExit");
-      setTimeout(function() {
-        backToTopButton.style.display = "none";
-      }, 250);
+
+    backToTopButton.addEventListener("click", smoothScrollBackToTop);
+
+    // function backToTop() {
+    //   window.scrollTo(0, 0);
+    // }
+
+    function smoothScrollBackToTop() {
+        const targetPosition = 0;
+        const startPosition = window.pageYOffset;
+        const distance = targetPosition - startPosition;
+        const duration = 750;
+        let start = null;
+
+        window.requestAnimationFrame(step);
+
+        function step(timestamp) {
+            if (!start) start = timestamp;
+            const progress = timestamp - start;
+            window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+            if (progress < duration) window.requestAnimationFrame(step);
+        }
     }
-  }
-}
 
-backToTopButton.addEventListener("click", smoothScrollBackToTop);
-
-// function backToTop() {
-//   window.scrollTo(0, 0);
-// }
-
-function smoothScrollBackToTop() {
-  const targetPosition = 0;
-  const startPosition = window.pageYOffset;
-  const distance = targetPosition - startPosition;
-  const duration = 750;
-  let start = null;
-  
-  window.requestAnimationFrame(step);
-
-  function step(timestamp) {
-    if (!start) start = timestamp;
-    const progress = timestamp - start;
-    window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-    if (progress < duration) window.requestAnimationFrame(step);
-  }
-}
-
-function easeInOutCubic(t, b, c, d) {
-	t /= d/2;
-	if (t < 1) return c/2*t*t*t + b;
-	t -= 2;
-	return c/2*(t*t*t + 2) + b;
-};
+    function easeInOutCubic(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t * t + b;
+        t -= 2;
+        return c / 2 * (t * t * t + 2) + b;
+    };
 </script>
-<!-- back to top -->
+<!-- back to top end-->
+<!-- slide start -->
+
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+    })
+  
+</script>
+<!-- slide end -->
+
 </html>

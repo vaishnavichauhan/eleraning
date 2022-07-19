@@ -15,12 +15,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- slide -->
-    <!-- <script src="./jquery/jquery.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.css" rel="stylesheet" /> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.carousel.js"></script> -->
-    <link rel="stylesheet" href="./owl.carousel.min.css"> 
-    <script src="./jquery/owl.carousel.min.js"></script>
+    <!-- ..<link rel="stylesheet" href="./owl.carousel.min.css">  -->
+    <!-- ..<script src="./jquery/owl.carousel.min.js"></script> -->
+
+    <!-- slide slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>				
 </head>
 
 <body>
@@ -54,7 +56,7 @@
                             <a class="nav-link data-toggle links" href="#" role="button" data-bs-toggle="dropdown">PAGES
                                 <i class="fa-solid fa-angle-down"></i>
                             </a>
-                            <ul class="dropdown-menu fade-down">
+                            <ul class="dropdown-menu fade-down mt-3">
                                 <li><a class="dropdown-item" href="#">Our Team</a></li>
                                 <li><a class="dropdown-item" href="#">Testimonial</a></li>
                                 <li><a class="dropdown-item" href="#">404 Page</a></li>
@@ -65,7 +67,7 @@
                             <a class="nav-link links" href="#">CONTACT</a>
                         </li>
                     </ul>
-                    <a href="#" class=" btn btn-primary py-4 px-lg-5 d-none d-lg-block join">Join Now<i
+                    <a href="#" class=" btn btns btn-primary py-4 px-lg-5 d-none d-lg-block join">Join Now<i
                             class="fa fa-arrow-right ms-3"></i></a>
                 </div>
 
@@ -73,7 +75,7 @@
         </nav>
         </header>
 
-<!-- section1: banner-->
+<!-- section1: banner-->     
     <section class="mb-5">
             <!-- Carousel -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -94,8 +96,8 @@
                                         <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
                                             at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum
                                             sea sanctus eirmod elitr.</p>
-                                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3 read-anim">Read More</a>
-                                        <a href="#" class="btn btn-light py-md-3 px-md-5 join-anim">Join Now</a>
+                                        <a href="#" class="btn btns btn-primary py-md-3 px-md-5 me-3 read-anim">Read More</a>
+                                        <a href="#" class="btn btns btn-light py-md-3 px-md-5 join-anim">Join Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -116,8 +118,8 @@
                                         <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
                                             at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum
                                             sea sanctus eirmod elitr.</p>
-                                        <a href="#" class="btn btn-primary py-md-3 px-md-5 me-3">Read More</a>
-                                        <a href="#" class="btn btn-light py-md-3 px-md-5">Join Now</a>
+                                        <a href="#" class="btn btns btn-primary py-md-3 px-md-5 me-3">Read More</a>
+                                        <a href="#" class="btn btns btn-light py-md-3 px-md-5">Join Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,12 +128,12 @@
                 </div>
 
                 <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
+                <button class="carousel-control-next pb-5" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="border:1px solid white; width:45px; height:45px "></span>
                 </button>
-                <button class="carousel-control-next right-arrow" type="button" data-bs-target="#demo"
+                <button class="carousel-control-next right-arrow pt-5" type="button" data-bs-target="#demo"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
+                    <span class="carousel-control-next-icon" style="border:1px solid white; width:45px; height:45px; margin-top: 7px;"></span>
                 </button>
             </div>
     </section>
@@ -140,7 +142,7 @@
     <section class=" container-xxl py-5">
             <div class="container">
                 <div class="row g-4">
-                    <div class="col-lg-3 col-sm-6 ">
+                    <div class="col-lg-3 col-sm-6 service-skiled">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-graduation-cap col-sky mb-4 service-icon"></i>
@@ -149,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 ">
+                    <div class="col-lg-3 col-sm-6 service-class">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-globe col-sky mb-4 service-icon"></i>
@@ -158,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 ">
+                    <div class="col-lg-3 col-sm-6 service-home ">
                         <div class=" service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-home col-sky mb-4 service-icon"></i>
@@ -167,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 ">
+                    <div class="col-lg-3 col-sm-6 service-book">
                         <div class="service-item text-center pt-3">
                             <div class="p-4">
                                 <i class="fa fa-3x fa-book-open col-sky mb-4 service-icon"></i>
@@ -187,10 +189,10 @@
     <section class="container-xxl py-5">
             <div class="container">
                 <div class="row g-5">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 service-skiled">
                         <img src="./All_images/about.jpg" class="about-img" alt="book images">
                     </div>
-                    <div class="col-lg-6 about-div">
+                    <div class="col-lg-6 about-div service-class">
                         <h6 class="bg-white text-start pe-3 about-title text-uppercase col-sky"> About Us</h6>
                         <h1 class="mb-4">Welcome to eLEARNING </h1>
                         <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
@@ -220,7 +222,7 @@
                                 </p>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="#">Read More</a>
+                        <a class="btn btns btn-primary py-3 px-5 mt-2" href="#">Read More</a>
                     </div>
                 </div>
 
@@ -238,7 +240,7 @@
                 <div class="row g-3">
                     <div class="col-lg-7 col-md-6">
                         <div class="row g-3">
-                            <div class="col-lg-12 col-md-12 conimg">
+                            <div class="col-lg-12 col-md-12 conimg cat-zoomin1">
                                 <a href="#" class="d-block cat-a">
                                     <img class="cat1-img" src="./All_images/cat-1.jpg" alt="web design">
                                     <div class="bg-white text-center py-2 px-3 cat-textbox">
@@ -247,7 +249,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-6 col-md-12 conimg">
+                            <div class="col-lg-6 col-md-12 conimg cat-zoomin2">
                                 <a href="#" class="d-block cat-a">
                                     <img class="cat1-img" src="./All_images/cat-2.jpg" alt="graphing design ">
                                     <div class="bg-white text-center py-2 px-3 cat-textbox">
@@ -256,7 +258,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-6 col-md-12 conimg">
+                            <div class="col-lg-6 col-md-12 conimg cat-zoomin3">
                                 <a href="#" class="d-block cat-a">
                                     <img class="cat1-img" src="./All_images/cat-3.jpg " alt="video editin">
                                     <div class="bg-white text-center py-2 px-3 cat-textbox">
@@ -267,7 +269,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-6 conimg">
+                    <div class="col-lg-5 col-md-6 conimg cat-zoomin4">
                         <a href="#" class=" d-block cat-a">
                             <img class="cat1-img" src="./All_images/cat-4.jpg" alt="marketing">
                             <div class="bg-white text-center py-2 px-3 cat-textbox ">
@@ -290,7 +292,7 @@
                 </div>
 
                 <div class="row g-4 justify-content-center">
-                    <div class="col-lg-4 col-md-6 course-top-sec2">
+                    <div class="col-lg-4 col-md-6 course-top-sec2 service-skiled">
                         <div class="course-sec">
                             <div class="course-top-sec">
                                 <img class="img-fluid course-img" src="./All_images/course-1.jpg" alt="course picture">
@@ -327,7 +329,7 @@
 
                     </div>
 
-                    <div class="col-lg-4 col-md-6 course-top-sec2">
+                    <div class="col-lg-4 col-md-6 course-top-sec2 service-class">
                         <div class="course-sec">
                             <div class="course-top-sec">
                                 <img class="img-fluid course-img" src="./All_images/course-2.jpg" alt="course picture">
@@ -364,7 +366,7 @@
 
                     </div>
 
-                    <div class="col-lg-4 col-md-6 course-top-sec2">
+                    <div class="col-lg-4 col-md-6 course-top-sec2 service-home">
                         <div class="course-sec">
                             <div class="course-top-sec">
                                 <img class="img-fluid course-img" src="./All_images/course-3.jpg" alt="course picture">
@@ -415,7 +417,7 @@
                     <h1 class="mb-5">Expert Instructors</h1>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                    <div class="col-lg-3 col-md-6 course-top-sec2 service-skiled">
                         <div class="bg-light">
                             <div>
                                 <img class="img-fluid course-img" src="./All_images/team-1.jpg"
@@ -423,11 +425,11 @@
                             </div>
                             <div class="instruction-social">
                                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href="#"><i
                                             class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -439,7 +441,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                    <div class="col-lg-3 col-md-6 course-top-sec2 service-class">
                         <div class="bg-light">
                             <div>
                                 <img class="img-fluid course-img" src="./All_images/team-2.jpg"
@@ -447,11 +449,11 @@
                             </div>
                             <div class="instruction-social">
                                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href="#"><i
                                             class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn  btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -463,7 +465,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                    <div class="col-lg-3 col-md-6 course-top-sec2 service-home">
                         <div class="bg-light">
                             <div>
                                 <img class="img-fluid course-img" src="./All_images/team-3.jpg"
@@ -471,11 +473,11 @@
                             </div>
                             <div class="instruction-social">
                                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href="#"><i
                                             class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn  btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -487,7 +489,7 @@
 
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 course-top-sec2">
+                    <div class="col-lg-3 col-md-6 course-top-sec2 service-book">
                         <div class="bg-light">
                             <div>
                                 <img class="img-fluid course-img" src="./All_images/team-4.jpg"
@@ -495,11 +497,11 @@
                             </div>
                             <div class="instruction-social">
                                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                    <a class="btn btn-sm-square btn-primary mx-1" href="#"><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href="#"><i
                                             class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-sm-square btn-primary mx-1" href=""><i
+                                    <a class="btn btns btn-sm-square btn-primary mx-1" href=""><i
                                             class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
@@ -515,28 +517,161 @@
             </div>
     </section>
 
-<!-- slid -->
-<div class="owl-carousel owl-theme owl-2">
-    <div class="item"><h4>1</h4></div>
-    <div class="item"><h4>2</h4></div>
-    <div class="item"><h4>3</h4></div>
-    <div class="item"><h4>4</h4></div>
-    <div class="item"><h4>5</h4></div>
-    <div class="item"><h4>6</h4></div>
-    <div class="item"><h4>7</h4></div>
-    <div class="item"><h4>8</h4></div>
-    <div class="item"><h4>9</h4></div>
-    <div class="item"><h4>10</h4></div>
-    <div class="item"><h4>11</h4></div>
-    <div class="item"><h4>12</h4></div>
-</div>
-
-<!-- slid -->
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi aspernatur consectetur eveniet laboriosam vel sint, ea impedit tempora perferendis doloremque quis ad? Quae, voluptate recusandae aspernatur alias blanditiis eius. Non consequatur culpa animi magnam perferendis provident sint. Vero molestias iusto quod tenetur doloribus blanditiis nobis nam labore, impedit, quidem itaque officia ea reprehenderit facere quae beatae doloremque. Inventore, doloremque ratione? Fuga dolorum quas provident laboriosam accusamus quos, incidunt ipsa deleniti necessitatibus culpa maiores mollitia consectetur aliquid, assumenda doloremque blanditiis delectus! Sit, in perferendis? Ullam blanditiis nemo itaque cupiditate quos recusandae ipsum quasi soluta exercitationem adipisci. Culpa illo fugit commodi aliquam.</p>
-        <div>
-            <i class="fa fa-book me-3"></i>
+<!-- section 7 : Testimonia -->
+<section class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="cat-title bg-white font-n text-center col-sky px-3 text-uppercase">
+                Testimonia</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
         </div>
-        <button id="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+        <!-- slid -->
+        <div class="responsive" id="my-slider">
+            <div class="text-center mx-2 ">
+               
+                 <img class="testimonial-img border rounded-circle p-2 mx-auto mb-3" src="./All_images/testimonial-1.jpg" alt="profile" width="80px" height="80px">
+                <h5 class="mb-0"> Client Name</h5>
+                <p>Profession</p>
+                <div class="course-sec text-center p-4">
+                    <p class="mb-0 slid-p ">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                </div>
+            </div>
+            <div class="text-center mx-2 ">
+                <img class="testimonial-img border rounded-circle  p-2 mx-auto mb-3" src="./All_images/testimonial-2.jpg" alt="profile" width="80px" height="80px">
+                <h5 class="mb-0"> Client Name</h5>
+                <p>Profession</p>
+                <div class="course-sec text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+            </div>
+            <div class="text-center mx-2">
+                <img class="testimonial-img   border rounded-circle p-2 mx-auto mb-3" src="./All_images/testimonial-3.jpg" alt="profile" width="80px" height="80px">
+                <h5 class="mb-0"> Client Name</h5>
+                <p>Profession</p>
+                <div class="course-sec text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+            </div>
+            <div class="text-center mx-2">
+                <img class="testimonial-img   border rounded-circle p-2 mx-auto mb-3" src="./All_images/testimonial-4.jpg" alt="profile" width="80px" height="80px">
+                <h5 class="mb-0"> Client Name</h5>
+                <p>Profession</p>
+                <div class="course-sec text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+            </div>
+            <div class="text-center mx-2">
+                <img class="testimonial-img  border rounded-circle p-2 mx-auto mb-3" src="./All_images/testimonial-1.jpg" alt="profile" width="80px" height="80px">
+                <h5 class="mb-0"> Client Name</h5>
+                <p>Profession</p>
+                <div class="course-sec text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+            </div>
+            <div class="text-center mx-2">
+                <img class="testimonial-img  border rounded-circle p-2 mx-auto mb-3" src="./All_images/testimonial-2.jpg" alt="profile" width="80px" height="80px">
+                <h5 class="mb-0"> Client Name</h5>
+                <p>Profession</p>
+                <div class="course-sec text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+            </div>
+            
+          </div>
+        <!-- slid -->
+    </div>
+</section>
+
+
+<!-- section 8 : footer -->
+<footer class="container-fluid pt-5 mt-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Quick Link</h4>
+                <a class="btn btn-link text-light" href=""> <i class="fa fa-angle-right fa-sm footer-icon"></i>About Us</a>
+                <a class="btn btn-link text-light" href=""><i class="fa fa-angle-right fa-sm footer-icon"></i>Contact Us</a>
+                <a class="btn btn-link text-light" href=""><i class="fa fa-angle-right fa-sm footer-icon"></i>Privacy Policy</a>
+                <a class="btn btn-link text-light" href=""><i class="fa fa-angle-right fa-sm footer-icon"></i>Terms &amp; Condition</a>
+                <a class="btn btn-link text-light" href=""><i class="fa fa-angle-right fa-sm footer-icon"></i>FAQs &amp; Help</a>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Contact</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn-social" href=""><i class="fab fa-twitter social-icon"></i></a>
+                    <a class="btn-social" href=""><i class="fab fa-facebook-f  social-icon"></i></a>
+                    <a class="btn-social" href=""><i class="fab fa-youtube  social-icon"></i></a>
+                    <a class="btn-social" href=""><i class="fab fa-linkedin-in  social-icon"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Gallery</h4>
+                <div class="row g-2 pt-2">
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./All_images/course-1 (1).jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./All_images/course-2 (1).jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./All_images/course-3 (1).jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./All_images/course-2 (1).jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./All_images/course-3 (1).jpg" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img class="img-fluid bg-light p-1" src="./All_images/course-1 (1).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-white mb-3">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn  btns btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div>
+
+            </div>
+    </div>
+    <div>
+        <div class="container">
+            <hr>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-last">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    © <a class="border-bottom footer-botom text-light" href="#">Your Site Name</a>, All Right Reserved.
+                    Designed By <a class="border-bottom footer-botom text-light" href="#">HTML Codex</a><br><br>
+                    Distributed By <a class="border-bottom footer-botom text-light" href="#">ThemeWagon</a>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="f-menu">
+                        <a class="footer-botom text-light" href="">Home</a>
+                        <a class="footer-botom text-light" href="">Cookies</a>
+                        <a  class="footer-botom text-light" href="">Help</a>
+                        <a class="footer-botom text-light" href="">FQAs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<button id="back-to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+</footer>
+
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -598,32 +733,51 @@
 </script>
 <!-- back to top end-->
 <!-- slide start -->
-
-<script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
     $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:3,
-            nav:false
-        },
-        1000:{
-            items:5,
-            nav:true,
-            loop:false
-        }
+        $('.responsive').slick({
+arrows:false,
+  dots: true,
+  fontSize:0,
+  infinite: false,
+  autoplay:true,
+  autoplaySpeed:1000,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  focusOnChange: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
-})
-    })
-  
+  ]
+});
+    });
+   
 </script>
 <!-- slide end -->
+
+
 
 </html>

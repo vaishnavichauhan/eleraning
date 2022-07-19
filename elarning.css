@@ -346,9 +346,16 @@ body {
   background-color:white;
 }
 
-.slick-dots .slick-active button::before,
-.slick-dots .slick-active button:focus {
-  background-color: red !important;
+/* .slick-dots li button:focus{
+  background-color: #06BBCC;
+} */
+
+.slick-center div{
+  background-color:#06BBCC !important;
+}
+.slick-dots li.slick-active button {
+	background:#06BBCC;
+
 }
 /* slide */
 

@@ -325,10 +325,6 @@ body {
 }
 
 /* section 7:testimonial */
-.testimonial-img{
-  /* border-radius: 50%; */
-}
-
 /* slide */
 .slick-dots{
   display: flex;
